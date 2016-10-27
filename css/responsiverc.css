@@ -1,0 +1,154 @@
+/*解析度  767px 以下*/
+@media screen and (max-width:767px) {
+	.sv_r { display:none;}
+	#abgneBlock ul.playerControl li {
+		
+		background: none;
+	}
+	body {
+  background:url(../images/top.jpg) center top no-repeat; background-size: auto 100px ;
+}
+	/*首頁*/
+
+	#header { height:60px; max-width:100%; margin:0 auto;}
+	#header h1 { width:70%; height:auto; background-size:90% auto; padding:0; margin-top:20px;}
+	#header h1 a { width:100%; height:auto;}
+	#TOP_MENU { display:block; float:right; background-color:rgba(0,0,0,0.7); font-size:14px; color:#FFF; text-align:center; width:74px; height:34px; line-height:34px; border-radius:10px; margin:10px;}	
+	/*選單*/
+	
+	#SUBMENU { display:none; width:100%; height:100%; position: fixed; left:0; top:0;background-color:rgba(0,0,0,0.7); z-index:1000;}
+	
+	.menu_ber {background-color:#f9f9f9; }
+	.menu { max-width:100%; height:0;}
+	.menu ul { padding-top:70px;}
+	.menu li {  float: none; font-size:17px; font-weight:bold;line-height:48px;width:100%; background-color:#000; color: #FFF;
+
+  }
+  .menu li a {border-bottom:1px solid #f9f9f9; color: #FFF;}
+  #SUBMENU_in {display: block; position: fixed; right:10px; top:10px; font-size:14px; color:#FFF; text-align:center; width:74px; height:34px; line-height:34px; border-radius:10px;}
+  
+ .fxd2 { position:fixed; left:0; top:0;}
+	
+
+/*首頁-輪播*/
+.photo { width:100%; height:274px; width:600px; margin:20px auto;}
+/*輪播圖*/
+	#abgneBlock {
+		width: 600px;
+		height: 274px;
+	}
+
+	#abgneBlock ul.list li {
+		width: 600px;
+		
+	}
+
+
+
+.conter { max-width:100%; margin:20px auto; overflow:hidden;}
+  
+ /*管理-左邊選單*/
+	.lift_menu { width:100%;float: none; background-color:#dfe8f2; height:42px;}
+	.lift_menu li { padding-right:20px; }
+	.lift_menu li a{width:25%; height:40px;line-height:40px; display:block;
+					margin:0; text-align:right; font-size:18px;
+					font-weight:bold;float:left;}
+/*右邊頁面*/
+.righr_page { width:100%; float: none;min-height:0;}
+.title_01 { background-size:100% ; }
+
+
+/*國旗列表*/
+.Flag_list { margin:0 auto; width:600px;}
+.Flag_list li { width:25%; float:left;}
+.Flag_list li a{ width:130px; height:130px; border-radius:100%; overflow: hidden; border:1px solid #989898; margin:0 auto;}
+.Flag_list li p { position:absolute; width:130px; text-align:center; font-size:28px; padding-top:30px;}
+.Flag_list li img { width:130px; padding-top:75px;}
+
+/*主單元*/
+.title_02 { height:45px; font-size:20px; background-size:100%;line-height:36px;  padding:10px 20px 0 20px; }
+
+.Flag_one { width:60px; height:60px;right:10px; top:8px;}
+.Flag_one img { width:60px; }
+
+.page_body { margin:20px 0 ; background-size:100%; }
+
+.class_list { width:90%; margin:0 auto;}
+.class_list li a{ background:url(../images/icon_st.png) 5px 28px no-repeat; }
+
+.title_03 {background:url(../images/icon_st.png) 5px  center no-repeat;}
+.page { padding:20px 25px;max-width:95%; }
+
+.homeback a { float:right; width:45%; margin-left:0px; margin:0 2.5%; color:#355fb8; padding-left:0px; text-align:center;}
+.homeback a:hover {border-bottom:4px solid #355fb8; height:32px;line-height:32px; }
+.btn_home { background:url(../images/icon_home.png) left center no-repeat;}
+.btn_previous {background:url(../images/icon_back.png) left center no-repeat;}
+
+/*常見問答*/
+
+/*好站連結*/
+.link_list li { width:45%; margin:0 2.5%;}
+
+/*聯絡表單*/
+
+.contactus_tb { margin:0 20px;}
+.contactus_tb li h3, .contactus_tb li h4 ,.contactus_tb li p {float:left; padding:0;width:95%; margin:0 2.5%; text-align:left;}
+.contactus_tb li h3 { width:100%; border-right: none;}
+.contactus_tb li h4 { width:100%; line-height:20px;}
+
+.w_274 { width:100%;}
+.w_190 { width:50%;}
+.w_540 { width:100%;}
+.h_240 { min-height:100px;}
+
+.w_s2 { width:25%; float:left;}
+
+
+
+
+/*首頁-最新消息*/
+.news_box { margin:0 10px;}
+.news_box ul { padding:0;}
+.news_box li { line-height:25px;  background:url(../images/icon_da.png) left 20px no-repeat; padding:10px 0 10px 20px;}
+
+/*詢問-廣告*/
+.flo_box {width:90%;float: nonet; margin:0 5%;}
+
+.ad_list p { width:50%; float:left;}
+
+/*版權頁*/
+.copyright { }
+.web_map { max-width:95%;}
+
+/*列表數*/
+.list_6 { width:32%; float:left; margin:10px 0.65%;}
+}
+
+/*解析度  480px 以下*/
+@media  screen and (max-width: 479px) {
+	
+/*首頁-輪播*/
+.photo { width:100%; height:169px; width:369px; margin:20px auto;}
+/*輪播圖*/
+	#abgneBlock {
+		width: 369px;
+		height: 169px;
+	}
+
+	#abgneBlock ul.list li {
+		width: 369px;
+		
+	}
+
+.Flag_list { margin:0 auto; width:320px;}
+.Flag_list li { width:130px; height:130px; border-radius:100%; overflow: hidden; border:1px solid #989898; float:left; margin:10px;}
+
+		
+	}
+	
+/*解析度  580px 以下*/
+@media  screen and (max-width: 580px) {
+	
+
+	
+	}
