@@ -26,13 +26,6 @@ if ($_POST) {
     $account = $_POST['account'];
     $pwd = md5($_POST['pwd']);
 
-    
-
-
-
-
-
-
     $login = $users->login($account, $pwd);
 
     if ($login === false) {

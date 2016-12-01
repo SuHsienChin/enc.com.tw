@@ -1,11 +1,11 @@
 <?php
 $ipCount = 99999999; // 設定要紀錄幾組ip
-$fileName = 'count.txt'; // 計數器紀錄檔
+$fileName = 'D:\htdocs\count.txt'; // 計數器紀錄檔
 $c = 0;
 
 if (file_exists($fileName)){  // 確認紀錄檔是否存在 若存在就讀取內容 不存在則創造空白檔案
     $fp = fopen($fileName,'r+');
-    $countArray = unserialize(fgets($fp,500));
+    $countArray = unserialize(fgets($fp));
     fclose($fp);
 }else{
     $fp = fopen($fileName,'w');

@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http://enc.com.tw/.*$ [NC]
+RewriteRule \.(jpg|jpeg|gif|png|bmp|rar|zip|exe)$ - [F]
+
+SetEnvIfNoCase User-Agent "^Baidu" bad_bot
+SetEnvIfNoCase User-Agent "^sogou" bad_bot
+SetEnvIfNoCase User-Agent "^Bloghoo" bad_bot
+SetEnvIfNoCase User-Agent "^Scooter" bad_bot
+SetEnvIfNoCase User-Agent "^PChomebot" bad_bot
+
+Deny from env=bad_bot
+
+<Files "xmlrpc.php">
+	Order Allow,Deny
+	deny from all
+</Files>
